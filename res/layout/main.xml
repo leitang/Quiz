@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <include android:id="@+id/textEdit_Name"
+             layout="@layout/textedit"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+
+    <include android:id="@+id/textEdit_ID"
+             layout="@layout/textedit"
+             android:layout_below="@id/textEdit_Name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+
+    <include android:id="@+id/textSpinner_Grade"
+             layout="@layout/textspinner"
+             android:layout_below="@id/textEdit_ID"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:prompt="@string/grade_prompt"/>
+
+    <Button android:text="开始测试"
+            android:id="@+id/begin"
+            android:layout_below="@id/textSpinner_Grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

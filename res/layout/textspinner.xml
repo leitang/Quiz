@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textSize="24sp"
+            android:id="@+id/text"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            />
+    <Spinner
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose_grade"
+            android:layout_toRightOf="@id/text"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:dropDownWidth="240dp"
+            android:dropDownHorizontalOffset="240dp"
+            android:entries="@array/grade_arrays"
+            android:prompt="@string/grade_prompt"
+            />
+</RelativeLayout>

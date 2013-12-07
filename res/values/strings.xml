@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="grade_prompt">请选择年级</string>
+
+    <string-array name="grade_arrays">
+        <item>1年级</item>
+        <item>2年级</item>
+        <item>3年级</item>
+        <item>4年级</item>
+    </string-array>
+</resources>
